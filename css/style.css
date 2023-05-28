@@ -295,6 +295,8 @@ margin: 0;
     border : solid 1px silver;
     font-family : sans-serif;
     column-gap: 40px;
+    box-sizing: border-box;
+    margin : 6px 6px 6px 10px;
 
   }
 

@@ -1,6 +1,4 @@
-<link href="css/style.css" rel="stylesheet"></link>
- 
- $(document).ready(function(){
+$(document).ready(function(){
 	$(document).on('click', '#checkAll', function() {          	
 		$(".itemRow").prop("checked", this.checked);
 	});	
@@ -22,7 +20,7 @@
 		htmlRows += '<td><input type="text" name="productName[]" id="productName_'+count+'" class="forminput" autocomplete="off"></td>';	
 		htmlRows += '<td><input type="number" name="quantity[]" id="quantity_'+count+'" class="forminput" autocomplete="off"></td>';   		
 		htmlRows += '<td><input type="number" name="price[]" id="price_'+count+'" class="forminput" autocomplete="off"></td>';		 
-		htmlRows += '<td><input style="background-color : black "type="number" name="total[]" id="total_'+count+'" class="forminput" autocomplete="off"></td>';          
+		htmlRows += '<td><input style="width : 87%"type="number" name="total[]" id="total_'+count+'" class="forminput" autocomplete="off"></td>';          
 		htmlRows += '</tr>';
 		
 		$('#invoiceItem').append(htmlRows);
