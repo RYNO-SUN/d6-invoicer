@@ -6,12 +6,12 @@ include 'Invoice.php';
 $invoice = new Invoice();
 $invoice->checkLoggedIn();
 ?>
-<title>D6 Developer Challenge</title>
+<title>Invoice List</title>
 <link rel="icon" type="image" href="/images/logo.png">
 <script src="js/invoice.js"></script>
 <link href="css/style.css" rel="stylesheet">
 	<div class=" floater">	
-    <h2 style="padding-top : 30px; margin-left : 20px">D6 Invoice System</h2>
+    <h2 style="padding-top : 30px; margin-left : 20px">Invoice List</h2>
     <a href="invoice_list.php"><button style="margin-left : 20px" class="moreButton" type="button" href="invoice_list.php">Invoice List </button></a>
 	 <a href="create_invoice.php"><button  class="moreButton" type="button" href="create_invoice.php">Capture Invoice</button></a>
 	 		  

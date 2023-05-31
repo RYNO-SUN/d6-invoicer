@@ -9,7 +9,7 @@ if(!empty($_POST['companyName']) && $_POST['companyName']) {
 	header("Location:invoice_list.php");	
 }
 ?>
-<title>D6 Developer Challenge</title>
+<title>Create Invoice</title>
 <script src="js/invoice.js"></script>
 <link href="css/style.css" rel="stylesheet">
 
